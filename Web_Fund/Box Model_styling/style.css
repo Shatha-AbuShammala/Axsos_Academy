@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.cloud {
+    background-color: #000000;
+    color: #FFFFFF; 
+    padding: 10px;
+}
+
+.cloud span {
+    color: #70dbdb;          
+}
+
+.projects {
+    background-color: #7b59a0; 
+    color: #FFFFFF;
+    font-style: italic; 
+    text-align: center;        
+    padding: 10px;
+    
+}
+
+.contact {
+    background-color: #a6cee3; 
+    text-align: right;   
+    text-decoration: underline;
+    padding: 10px;
+}

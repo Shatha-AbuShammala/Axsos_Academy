@@ -1,0 +1,21 @@
+START
+
+INPUT n
+
+IF n is not an integer OR n < 0 THEN
+    OUTPUT "Invalid input"
+    STOP
+END IF
+
+IF n = 0 OR n = 1 THEN
+    result = 1
+ELSE
+    result = 1
+    FOR i = 2 TO n
+        result = result * i
+    END FOR
+END IF
+
+OUTPUT "The factorial of n is: ", result
+
+END

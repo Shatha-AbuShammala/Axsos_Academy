@@ -1,0 +1,18 @@
+START
+
+INPUT number
+
+IF number < 0 THEN
+    OUTPUT "Please enter positive number"
+
+ELSE
+    sum = 0
+
+    FOR i = 1 TO number
+        sum = sum + i
+    END FOR
+
+    OUTPUT "The sum from 1 to n is: ", sum
+END IF
+
+END

@@ -1,0 +1,12 @@
+START
+
+INPUT number1
+INPUT number2
+INPUT number3
+
+PROCESS sum = number1 + number2 + number3
+PROCESS average = sum / 3
+
+OUTPUT average
+
+END

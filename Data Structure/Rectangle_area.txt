@@ -1,0 +1,10 @@
+START
+
+INPUT length
+INPUT width
+
+PROCESS area = length * width
+
+OUTPUT area
+
+END
