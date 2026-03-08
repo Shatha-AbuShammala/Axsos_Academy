@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.col {
+  flex: 1;
+  background-color: #4eb88f;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid white;
+}
+
+.col-2 {
+  flex: 2;
+  background-color: #4eb88f;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid white;
+}
+
+.col-3 {
+  flex: 3;
+  background-color: #4eb88f;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid white;
+}
