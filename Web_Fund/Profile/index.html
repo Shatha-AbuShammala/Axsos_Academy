@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Profile</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <h1 class="logo">Profile</h1>
+    <ul class="nav-menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#" class="active">My Profile</a></li>
+      <li><a href="#">Find Connections</a></li>
+    </ul>
+    <button class="signout-btn">Sign Out</button>
+  </nav>
+
+  <div class="wrapper">
+
+    <div class="col-left">
+
+      <div class="profile-card">
+        <div class="cover"></div>
+        <img class="profile-pic" src="./images/jane-m.jpg" alt="user" />
+        <div class="profile-info">
+          <h2>Jane Doe</h2>
+          <div class="city">
+            <img src="./images/map-marker.png" alt="location" class="small-icon" />
+            <p>Seattle</p>
+          </div>
+          <p class="tagline">Developer | Engineer | Problem Solver<br>Master of shadows and the Internet!</p>
+          <div class="edit-row">
+            <img src="./images/gear.png" alt="gear" class="small-icon" />
+            <a href="#">edit profile</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="edu-card">
+        <div class="dark-header">Education</div>
+        <div class="edu-content">
+          <h4>Coding Dojo - Full Stack Bootcamp</h4>
+          <p class="edu-dates">Dec 2019 - Mar 2020</p>
+          <p class="edu-text">Triple black belt in Python, MERN, and C#...</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-right">
+
+      <div class="side-card">
+        <div class="dark-header">
+          <span class="badge">2</span> Connection Requests
+        </div>
+        <ul class="side-content">
+          <li class="user-row">
+            <img src="./images/todd-s.jpg" alt="user" class="thumb" />
+            <p>Todd E</p>
+            <div class="row-actions">
+              <img src="./images/accept-circle.png" alt="accept" class="small-icon" />
+              <img src="./images/close-circle.png" alt="decline" class="small-icon" />
+            </div>
+          </li>
+          <li class="user-row">
+            <img src="./images/phil-s.jpg" alt="user" class="thumb" />
+            <p>Phil K</p>
+            <div class="row-actions">
+              <img src="./images/accept-circle.png" alt="accept" class="small-icon" />
+              <img src="./images/close-circle.png" alt="decline" class="small-icon" />
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="side-card">
+        <div class="dark-header">
+          <span class="badge">500+</span> Your Connections
+        </div>
+        <ul class="side-content">
+          <li class="user-row">
+            <img src="./images/adrien-s.jpg" alt="user" class="thumb" />
+            <p>Adrien D</p>
+          </li>
+          <li class="user-row">
+            <img src="./images/anne-s.jpg" alt="user" class="thumb" />
+            <p>Anne J</p>
+          </li>
+          <li class="user-row">
+            <img src="./images/alayne-s.jpg" alt="user" class="thumb" />
+            <p>Alayne T</p>
+          </li>
+          <li class="user-row">
+            <img src="./images/arry-s.jpg" alt="user" class="thumb" />
+            <p>Arry Y</p>
+          </li>
+        </ul>
+        <a href="#" class="more-link">View More</a>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ebebeb;
+}
+
+.navbar {
+  background-color: #1e2a3a;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 0 100px;
+}
+
+.logo {
+  color: white;
+  padding: 15px 0;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 22px;
+  flex: 1;
+  
+}
+
+.nav-menu a {
+  color: #bbb;
+  text-decoration: none;
+}
+.nav-menu a.active {
+    color: white;
+    font-weight: bold;
+}
+
+.signout-btn {
+  background-color: #1eafc0;
+  color: white;
+  border: none;
+  padding: 7px 16px;
+  cursor: pointer;
+}
+
+.wrapper {
+  display: flex;
+  gap: 18px;
+  padding: 22px;
+  max-width: 880px;
+  margin: 0 auto;
+}
+
+.col-left {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  flex: 2;
+}
+
+.col-right {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  flex: 1;
+}
+
+.profile-card {
+  position: relative;
+  background-color: white;
+}
+
+.cover {
+  background-color: #1eafc0;
+  height: 90px;
+}
+
+.profile-pic {
+  position: absolute;
+  top: 52px;
+  left: 18px;
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  border: 3px solid white;
+  object-fit: cover;
+}
+
+.profile-info {
+  padding: 48px 18px 18px;
+}
+
+.city,
+.edit-row {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.tagline {
+  color: #444;
+  line-height: 1.5;
+  margin-bottom: 13px;
+}
+
+.edit-row a {
+  color: #0073b1;
+  text-decoration: none;
+}
+
+.small-icon {
+  width: 15px;
+  height: 15px;
+}
+
+.edu-card,
+.side-card {
+  background-color: white;
+  overflow: hidden;
+}
+
+.dark-header {
+  background-color: #2d2d2d;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 15px;
+  color: white;
+  font-weight: bold;
+}
+
+.badge {
+  background-color: #9b9b9b;
+  color: white;
+  padding: 2px 7px;
+  border-radius: 10px;
+}
+
+.edu-content {
+  padding: 15px 18px;
+}
+
+.edu-dates {
+  color: #888;
+  margin: 4px 0;
+}
+
+.side-content {
+  padding: 10px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.user-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user-row p {
+  flex: 1;
+}
+
+.thumb {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.row-actions {
+  display: flex;
+  gap: 6px;
+}
+
+.more-link {
+  display: block;
+  padding: 8px 14px;
+  color: #0073b1;
+  text-decoration: underline;
+}
