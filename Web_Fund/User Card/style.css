@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+.card {
+  position: relative;
+  background-color: white;
+  width: 550px;
+  height: 300px;
+  margin: 60px auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.banner {
+  background-color: #29b6c5;
+  height: 100px;
+}
+
+.user {
+  position: absolute;
+  top: 60px;
+  left: 20px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+.info {
+  padding: 50px 20px 20px 20px;
+}
+
+.info h2 {
+  font-size: 1.2rem;
+  color: #111;
+  margin-bottom: 4px;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.bio {
+  font-size: 0.82rem;
+  color: #2b2a2a;
+  line-height: 1.5;
+  margin-bottom: 14px;
+  font-weight: bold;
+}
+
+.edit {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: underline;
+  cursor: pointer;
+  color: #0073b1;
+}
+
+.edit a {
+  font-size: 0.82rem;
+  color: #0073b1;
+  text-decoration: none;
+}
+.icon {
+  width: 16px;
+  height: 16px;
+}
