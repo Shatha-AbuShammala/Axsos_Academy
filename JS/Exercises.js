@@ -1,6 +1,5 @@
 //1. Convert a Letter Grade to Feedback
 function gradeFeedback(grade) {
-  g
   switch (grade) {
     case 'A':
       return "Excellent";
