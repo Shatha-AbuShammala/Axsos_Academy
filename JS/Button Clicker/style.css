@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+}
+
+.navbar {
+  background-color: #dcdcdc;
+  border-bottom: 2px solid #aaa;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 12px 24px;
+  max-width: 100%;
+}
+
+.logo {
+  flex: 1;
+}
+
+.search-bar {
+  padding: 7px 12px;
+  border: 1px solid #bbb;
+  width: 280px;
+}
+
+button {
+  cursor: pointer;
+  border: 1px solid #888;
+  padding: 7px 16px;
+  font-weight: bold;
+}
+
+.login-btn {
+  background-color: #0077cc;
+  color: white;
+}
+
+.container {
+  display: flex;
+  gap: 24px;
+  padding: 24px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.cards-col {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  flex: 2;
+}
+
+.right-col {
+  flex: 1;
+}
+
+.card,.right-box {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 18px;
+  display: flex;
+    border: 3px solid #000000;
+
+}
+
+.right-box {
+  flex-direction: column;
+  gap: 14px;
+}
+
+.card-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.card-right {
+  flex: 2;
+  padding-left: 18px;
+  font-size: 1rem;
+}
+
+.card-right a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.word-type {
+  color: #888;
+  font-style: italic;
+}
+
+.word-plural {
+  font-size: 0.82rem;
+  color: #aaa;
+}
+
+.like-btn {
+  background-color: #f5c518;
+  margin-top: auto;
+  width: fit-content;
+  padding: 5px 10px;
+}
+
+.right-box h2 {
+  font-size: 1rem;
+}
+
+.right-box span {
+  font-weight: bold;
+}
+
+.add-btn {
+  background-color: #4caf50;
+  color: white;
+  width: fit-content;
+}
