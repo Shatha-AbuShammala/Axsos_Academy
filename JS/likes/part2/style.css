@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+ 
+.navbar {
+  background-color: #111;
+  color: white;
+  padding: 14px 24px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+ 
+.feed-title {
+  text-align: center;
+  padding: 16px 0;
+  font-size: 1.3rem;
+}
+ 
+.wrapper {
+  display: flex;
+  gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px 20px;
+}
+ 
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid #ccc;
+  background-color: white;
+  padding: 16px;
+  width: 160px;
+  height: fit-content;
+}
+ 
+.avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+ 
+.profile a {
+  color: #0077cc;
+  text-decoration: none;
+  font-size: 0.85rem;
+}
+ 
+.posts {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  flex: 1;
+}
+ 
+.post {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 14px;
+}
+ 
+.post-top {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+ 
+.post-top h3 {
+  flex: 1;
+}
+ 
+.post a {
+  color: #0077cc;
+  text-decoration: none;
+}
+ 
+button {
+  background-color: #f5c518;
+  border: 1px solid #ccc;
+  padding: 4px 12px;
+  cursor: pointer;
+  font-weight: bold;
+}
