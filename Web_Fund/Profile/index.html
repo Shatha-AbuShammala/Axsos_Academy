@@ -25,7 +25,7 @@
         <div class="cover"></div>
         <img class="profile-pic" src="./images/jane-m.jpg" alt="user" />
         <div class="profile-info">
-          <h2>Jane Doe</h2>
+          <h2 id="username">Jane Doe</h2>
           <div class="city">
             <img src="./images/map-marker.png" alt="location" class="small-icon" />
             <p>Seattle</p>
@@ -33,7 +33,8 @@
           <p class="tagline">Developer | Engineer | Problem Solver<br>Master of shadows and the Internet!</p>
           <div class="edit-row">
             <img src="./images/gear.png" alt="gear" class="small-icon" />
-            <a href="#">edit profile</a>
+            <a href="#" onclick="editProfile()">edit profile</a>
+
           </div>
         </div>
       </div>
@@ -60,8 +61,8 @@
             <img src="./images/todd-s.jpg" alt="user" class="thumb" />
             <p>Todd E</p>
             <div class="row-actions">
-              <img src="./images/accept-circle.png" alt="accept" class="small-icon" />
-              <img src="./images/close-circle.png" alt="decline" class="small-icon" />
+              <img src="./images/accept-circle.png" onclick="removeRequest(this)" class="small-icon" />
+              <img src="./images/close-circle.png" onclick="removeRequest(this)" class="small-icon" />
             </div>
           </li>
           <li class="user-row">
@@ -102,6 +103,7 @@
 
     </div>
   </div>
+<script src="script.js"></script>
 
 </body>
 </html>
