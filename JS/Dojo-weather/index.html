@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="nav-bar">
+        <a href="#" class="int"><h1>DojoWeather</h1></a>
+        <ul class="nav-links">
+            <li> <a href="#" onclick="alert('loading weather report')">Burbank</a></li>
+            <li> <a href="#" onclick="alert('loading weather report')">Chicago</a></li>
+            <li> <a href="#" onclick="alert('loading weather report')">Dallas</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="container">
+
+        <div class="hero">
+            <div class="first-row">
+                <h2>San Jose</h2>
+                <div class="second-row">
+                    <h3>show tempreture in</h3>
+                    <select name="options" id="options-row" onchange="convert()">
+                        <option value="C" > C</option>
+                        <option value="F" > F</option>
+                    </select>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <h2>Today</h2>
+                    <img src="./images/some_rain.png" alt="rain">
+                    <h3>some rain</h3>
+                    <div class="temps">
+                        <span class="first-temps"> 24 </span>
+                        <span class="second-temps"> 18 </span>
+                    </div>
+                </div>
+                <div class="card">
+                    <h2>Tommorrow</h2>
+                    <img src="./images/some_sun.png" alt="sun">
+                    <h3>some sun</h3>
+                    <div class="temps">
+                        <span class="first-temps"> 27 </span>
+                        <span class="second-temps"> 19 </span>
+                    </div>
+                </div>
+                <div class="card">
+                    <h2>Friday</h2>
+                    <img src="./images/some_clouds.png" alt="clouds">
+                    <h3>some clouds</h3>
+                    <div class="temps">
+                        <span class="first-temps"> 21 </span>
+                        <span class="second-temps"> 16 </span>
+                    </div>
+                </div>
+                <div class="card">
+                    <h2>saturday</h2>
+                    <img src="./images/some_sun.png" alt="sun">
+                    <h3>some sun</h3>
+                    <div class="temps">
+                        <span class="first-temps"> 26 </span>
+                        <span class="second-temps"> 21 </span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <section class="cookie">
+            <img src="images/cookie.png" alt="cookies">
+            <div class="para">
+             <strong>Stop! Cookie time</strong>
+      <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <span class="read-btn">Read more...</span></p>
+            </div>
+            <button class="accept-btn" onclick="hideCookie()"> I Accept</button>
+        </div>    
+        </section>
+    </main>
+<script src="script.js"></script>    
+</body>
+</html>
